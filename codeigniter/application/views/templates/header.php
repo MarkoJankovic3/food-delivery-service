@@ -20,17 +20,17 @@
 
 	<nav class="navbar navbar-expand-lg fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="index.html"><img src="<?php echo base_url(); ?>images/tema.png" width="60" height="60"></a>
+			<a class="navbar-brand" href="index.html"><img src="<?php echo base_url(); ?>assets/images/tema.png" width="60" height="60"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 	aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 			<div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-lg-auto">
                     <li class="nav-item">
-                        <a href="<?php echo site_url('/home'); ?>" class="nav-link smoothScroll">Home</a>
+                        <a href="<?php echo site_url('home'); ?>" class="nav-link smoothScroll">Home</a>
                     </li>
 					<li class="nav-item">
-				        <a href="<?php echo site_url('/about'); ?>" class="nav-link smoothScroll">About Us</a>
+				        <a href="<?php echo site_url('about'); ?>" class="nav-link smoothScroll">About Us</a>
 					</li>
 					<li class="nav-item">
                         <a href="#schedule" class="nav-link smoothScroll">Menu</a>
