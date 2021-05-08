@@ -8,8 +8,7 @@
                         <h6 data-aos="fade-up" data-aos-delay="300">Taste the best, it is on time!</h6>
                         <h1 class="text-white" data-aos="fade-up" data-aos-delay="500">Order your food from Restaurant Tema</h1>
                         <a href="<?php echo site_url('/about'); ?>" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="600">Learn about us</a>
-                        <a href="#feature" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="700">Order food</a>
-                            
+                        <a href="<?php echo base_url() ?>index.php/user_authentication/login" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="700">Order food</a>
                     </div>
                 </div>
             </div>
