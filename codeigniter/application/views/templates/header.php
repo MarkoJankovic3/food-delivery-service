@@ -21,7 +21,7 @@
 
 	<nav class="navbar navbar-expand-lg fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="index.html"><img src="<?php echo base_url(); ?>assets/images/tema.png" width="60" height="60"></a>
+			<a class="navbar-brand" href="<?php echo site_url('home'); ?>"><img src="<?php echo base_url(); ?>assets/images/tema.png" width="60" height="60"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 	aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

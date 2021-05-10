@@ -14,7 +14,7 @@ if (isset($message_display)) {
 ?>
 <div class="box-form">
 	<div class="login-box" id="main">
-		<h2>Login</h2>
+		<h2>Sign in</h2>
 		<div id="login">
 			<?php echo form_open('user_authentication/signin'); ?>
 			<?php
@@ -33,8 +33,11 @@ if (isset($message_display)) {
 				<input type="password" name="password" id="password" required=""/>
 				<label>Password</label>
 			</div>
-			<input type="submit" value=" Login " name="submit"/><br />
-			<a href="<?php echo base_url() ?>index.php/user_authentication/register">To SignUp Click Here</a>
+			<div class="dugme-box">
+				<input type="submit" class="dugme" value=" Sign in " name="submit"/><br />
+			</div>
+			
+			<a href="<?php echo base_url() ?>index.php/user_authentication/register">Don't have an account?</a>
 			<?php echo form_close(); ?>
 		</div>
 	</div>

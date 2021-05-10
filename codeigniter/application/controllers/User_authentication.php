@@ -92,11 +92,12 @@ class User_authentication extends CI_Controller {
 			if ($result == TRUE) {
 
 				$data['message_display'] = 'Registration Successfully !';
+				$this->load->view('templates/footer');
 				$this->load->view('user_authentication/login_form', $data);
 				$this->load->view('templates/footer');
 				
 			} else {
-
+				$this->load->view('templates/footer');
 				$this->load->view('user_authentication/registration_form');
 				$this->load->view('templates/footer');
 				

@@ -1,10 +1,10 @@
 
   .login-box {
     position: absolute;
-    top: 50%;
+    top: 54%;
     left: 50%;
     width: 400px;
-    padding: 40px;
+    padding: 25px 40px;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.794);
     box-sizing: border-box;
@@ -56,25 +56,21 @@
   .login-box form a {
     position: relative;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 5px 20px;
     color: #fdd000;
-    font-size: 16px;
+    font-size: 8px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 4px
+    margin-top: 10px;
+    letter-spacing: 2px
   }
   
   .login-box a:hover {
     background: #fdd000;
     color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 5px #fdd000,
-                0 0 25px #fdd000,
-                0 0 50px #fdd000,
-                0 0 100px #fdd000;
   }
   
   .login-box a span {
@@ -90,7 +86,7 @@
     background: linear-gradient(90deg, transparent, #fdd000);
     animation: btn-anim1 1s linear infinite;
   }
-  
+
   @keyframes btn-anim1 {
     0% {
       left: -100%;
@@ -157,7 +153,25 @@
     min-height: 100vh;
     position: relative;
   }
+
+  .dugme {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #fdd000;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
   
+  .dugme-box {
+    padding-left: 100px;
+  }
   @keyframes btn-anim4 {
     0% {
       bottom: -100%;
