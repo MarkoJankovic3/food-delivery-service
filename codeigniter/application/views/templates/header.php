@@ -34,7 +34,7 @@
 				        <a href="<?php echo site_url('about'); ?>" class="nav-link smoothScroll">About Us</a>
 					</li>
 					<li class="nav-item">
-                        <a href="#schedule" class="nav-link smoothScroll">Menu</a>
+                        <a href="<?php echo site_url('menu'); ?>" class="nav-link smoothScroll">Menu</a>
                     </li>
                     <li class="nav-item">
                         <a href="#class" class="nav-link smoothScroll">Reservations</a>
