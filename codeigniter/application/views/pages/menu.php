@@ -29,6 +29,12 @@
 						<p>Rice with poached eggs, zucchini, and celery. </p>
 						<h5> &euro; 5.99</h5>
 					</div>
+					<div class="dugme-box">
+						<button class="dugme">Add to cart</button>
+					</div>
+				</div>
+				<div class="dugme-box">
+					<button class="dugme">Add to cart</button>
 				</div>
 			</div>
 			
@@ -40,6 +46,12 @@
 						<p>Beef with broccoli, cucumbers, tomatoes, and poached eggs</p>
 						<h5> &euro; 11.99</h5>
 					</div>
+					<div class="dugme-box">
+						<button class="dugme">Add to cart</button>
+					</div>
+				</div>
+				<div class="dugme-box">
+					<button class="dugme">Add to cart</button>
 				</div>
 			</div>
 			
@@ -51,6 +63,12 @@
 						<p>Maple Glazed Salmon with rice and spinach</p>
 						<h5> &euro; 14.99 </h5>
 					</div>
+					<div class="dugme-box">
+						<button class="dugme">Add to cart</button>
+					</div>
+				</div>
+				<div class="dugme-box">
+					<button class="dugme">Add to cart</button>
 				</div>
 			</div>
 			
@@ -62,6 +80,12 @@
 						<p>Chicken burger with cheddar, parmesan and adobo sauce</p>
 						<h5> &euro; 9.99</h5>
 					</div>
+					<div class="dugme-box">
+						<button class="dugme">Add to cart</button>
+					</div>
+				</div>
+				<div class="dugme-box">
+					<button class="dugme">Add to cart</button>
 				</div>
 			</div>
 			
@@ -73,6 +97,12 @@
 						<p>Beef burger with cheddar and steak sauce.</p>
 						<h5> &euro; 12.99</h5>
 					</div>
+					<div class="dugme-box">
+						<button class="dugme">Add to cart</button>
+					</div>
+				</div>
+				<div class="dugme-box">
+					<button class="dugme">Add to cart</button>
 				</div>
 			</div>
 			
@@ -84,6 +114,12 @@
 						<p>Beef burger with hickory seasoning, onions, mushrooms, and cheese.</p>
 						<h5> &euro; 14.99</h5>
 					</div>
+					<div class="dugme-box">
+						<button class="dugme">Add to cart</button>
+					</div>
+				</div>
+				<div class="dugme-box">
+					<button class="dugme">Add to cart</button>
 				</div>
 			</div>
 			
@@ -95,6 +131,12 @@
 						<p>Linguine with garlic, crushed tomatoes, olives, and anchovies.</p>
 						<h5> &euro; 8.99</h5>
 					</div>
+					<div class="dugme-box">
+						<button class="dugme">Add to cart</button>
+					</div>
+				</div>
+				<div class="dugme-box">
+					<button class="dugme">Add to cart</button>
 				</div>
 			</div>
 			
@@ -107,6 +149,9 @@
 						<h5>&euro; 9.99</h5>
 					</div>
 				</div>
+				<div class="dugme-box">
+					<button class="dugme">Add to cart</button>
+				</div>
 			</div>
 			
 			<div class="col-lg-4 col-md-6 special-grid salad">
@@ -118,8 +163,10 @@
 						<h5> &euro; 11.99</h5>
 					</div>
 				</div>
+				<div class="dugme-box">
+					<button class="dugme">Add to cart</button>
+				</div>
 			</div>
-			
 		</div>
 	</div>
 </div>
