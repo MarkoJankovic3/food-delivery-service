@@ -14,6 +14,7 @@ class Products extends CI_Controller{
     }
     
     function index(){
+        $this->load->view('templates/header.php');
         $data = array();
         
         // Fetch products from the database

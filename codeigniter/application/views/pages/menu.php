@@ -8,7 +8,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12">
+			<div class="col-lg-8 col-md-10 mx-auto col-12">
 				<div class="special-menu text-center">
 					<div class="button-group filter-button-group">
 						<button onclick="filterSelection('all')">All</button>
@@ -19,6 +19,7 @@
 				</div>
 			</div>
 		</div>
+
 			
 		<div class="row special-list">
 			<div class="col-lg-4 col-md-6 special-grid maincourse">
