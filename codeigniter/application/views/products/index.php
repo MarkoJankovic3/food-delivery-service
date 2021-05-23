@@ -1,8 +1,4 @@
 <div class="menu-box d-flex flex-column justify-content-center align-items-center">
-<!-- Cart basket -->
-<div class="cart-view">
-    <a href="<?php echo base_url('index.php/cart'); ?>" title="View Cart"><i class="icart"></i> (<?php echo ($this->cart->total_items() > 0)?$this->cart->total_items().' Items':'Empty'; ?>)</a>
-</div>
 
 <!-- List all products -->
 <div class="row col-lg-12">

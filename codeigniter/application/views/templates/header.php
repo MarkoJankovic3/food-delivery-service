@@ -46,7 +46,8 @@
                 </ul>
 
                 <ul class="social-icon ml-lg-3">
-                    <li class="nav-item"><a href="<?php echo site_url('cart'); ?>" class="fa fa-shopping-cart">  Shopping Cart</a></li>
+                    <li class="nav-item"><a href="<?php echo site_url('cart'); ?>" class="fa fa-shopping-cart">  Shopping Cart:  (<?php echo ($this->cart->total_items() > 0)?$this->cart->total_items().' Items':'Empty'; ?>)</a></li>
+                    
                 </ul>
             </div>
 		</div>
