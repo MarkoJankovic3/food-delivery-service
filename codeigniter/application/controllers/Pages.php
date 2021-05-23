@@ -1,6 +1,16 @@
 <?php
 class Pages extends CI_Controller {
 
+  function  __construct(){
+        parent::__construct();
+        
+        // Load cart library
+        $this->load->library('cart');
+        
+        // Load product model
+        $this->load->model('product');
+    }
+
   public function view($page = 'home')
   {
     $this->load->helper('url_helper');

@@ -14,7 +14,7 @@ function updateCartItem(obj, rowid){
 }
 </script>
 
-<h1>SHOPPING CART</h1>
+<h1>Shopping cart</h1>
 <table class="table table-striped">
 <thead>
     <tr>
@@ -30,14 +30,14 @@ function updateCartItem(obj, rowid){
     <?php if($this->cart->total_items() > 0){ foreach($cartItems as $item){    ?>
     <tr>
         <td>
-            <?php $imageURL = !empty($item["image"])?base_url('assets/images/menu'.$item["image"]):base_url('assets/images/pro-demo-img.jpeg'); ?>
-            <img src="<?php echo $imageURL; ?>" width="50"/>
+            <?php $imageURL = !empty($item["image"])?base_url('assets/images/menu/'.$item["image"]):base_url('assets/images/pro-demo-img.jpeg'); ?>
+            <img src="<?php echo $imageURL; ?>" width="100"/>
         </td>
         <td><?php echo $item["name"]; ?></td>
         <td><?php echo '$'.$item["price"].' USD'; ?></td>
         <td><input type="number" class="form-control text-center" value="<?php echo $item["qty"]; ?>" onchange="updateCartItem(this, '<?php echo $item["rowid"]; ?>')"></td>
         <td class="text-right"><?php echo '$'.$item["subtotal"].' USD'; ?></td>
-        <td class="text-right"><button class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete item?')?window.location.href='<?php echo base_url('index.php/cart/removeItem/'.$item["rowid"]); ?>':false;"><i class="itrash"></i> </button> </td>
+        <td class="text-right"><button class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete item?')?window.location.href='<?php echo base_url('index.php/cart/removeItem/'.$item["rowid"]); ?>':false;"><i class="itrash"></i> Remove </button> </td>
     </tr>
     <?php } }else{ ?>
     <tr><td colspan="6"><p>Your cart is empty.....</p></td>
