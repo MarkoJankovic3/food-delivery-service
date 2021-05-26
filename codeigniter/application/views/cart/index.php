@@ -57,3 +57,8 @@ function updateCartItem(obj, rowid){
 <div class="col-sm-12 col-md-6">
         <a href="<?php echo base_url('index.php/products/') ?>"> Continue shopping</a>
 </div>
+<div class="col-sm-12 col-md-6 text-right">
+        <?php if($this->cart->total_items() > 0) { ?>
+        <a href="<?php echo base_url('index.php/checkout/'); ?>">Checkout</a>
+        <?php } ?>
+</div>
