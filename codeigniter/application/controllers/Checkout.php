@@ -22,7 +22,7 @@ class Checkout extends CI_Controller{
     function index(){
         // Redirect if the cart is empty
         if($this->cart->total_items() <= 0){
-            redirect('products/');
+            redirect('index.php/products/');
         }
         
         $custData = $data = array();
@@ -32,14 +32,12 @@ class Checkout extends CI_Controller{
         if(isset($submit)){
             // Form field validation rules
             $this->form_validation->set_rules('name', 'Name', 'required');
-            $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
             $this->form_validation->set_rules('phone', 'Phone', 'required');
             $this->form_validation->set_rules('address', 'Address', 'required');
             
             // Prepare customer data
             $custData = array(
                 'name'     => strip_tags($this->input->post('name')),
-                'email'     => strip_tags($this->input->post('email')),
                 'phone'     => strip_tags($this->input->post('phone')),
                 'address'=> strip_tags($this->input->post('address'))
             );

@@ -11,7 +11,6 @@
         <p><b>Total:</b> <?php echo '$'.$order['grand_total'].' USD'; ?></p>
         <p><b>Placed On:</b> <?php echo $order['created']; ?></p>
         <p><b>Buyer Name:</b> <?php echo $order['name']; ?></p>
-        <p><b>Email:</b> <?php echo $order['email']; ?></p>
         <p><b>Phone:</b> <?php echo $order['phone']; ?></p>
     </div>
 	
@@ -34,7 +33,7 @@
                 ?>
                 <tr>
                     <td>
-                        <?php $imageURL = !empty($item["image"])?base_url('uploads/product_images/'.$item["image"]):base_url('assets/images/pro-demo-img.jpeg'); ?>
+                        <?php $imageURL = !empty($item["image"])?base_url('assets/images/menu/'.$item["image"]):base_url('assets/images/menu/burger-01.jpg'); ?>
                         <img src="<?php echo $imageURL; ?>" width="75"/>
                     </td>
                     <td><?php echo $item["name"]; ?></td>

@@ -37,7 +37,7 @@ class Product extends CI_Model{
      * @param id returns a single record of the specified ID
      */
     public function getOrder($id){
-        $this->db->select('o.*, c.name, c.email, c.phone, c.address');
+        $this->db->select('o.*, c.name, c.phone, c.address');
         $this->db->from($this->ordTable.' as o');
         $this->db->join($this->custTable.' as c', 'c.id = o.customer_id', 'left');
         $this->db->where('o.id', $id);

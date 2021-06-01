@@ -36,12 +36,9 @@
 					<li class="nav-item">
                         <a href="<?php echo site_url('products'); ?>" class="nav-link smoothScroll">Menu</a>
                     </li>
+
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link smoothScroll">Reservations</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link smoothScroll">Contact Us</a>
+                        <a href="<?php echo site_url('pages/contact'); ?>" class="nav-link smoothScroll">Contact Us</a>
                     </li>
                 </ul>
 
